@@ -1,4 +1,40 @@
 {
+  "name": "geth",
+  "version": "0.4.0",
+  "description": "Start and stop geth from Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "jshint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereumjs/geth.js.git"
+  },
+  "keywords": [
+    "geth",
+    "ethereum",
+    "spawn",
+    "child process"
+  ],
+  "author": "Jack Peterson <jack@tinybike.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethereumjs/geth.js/issues"
+  },
+  "homepage": "https://github.com/ethereumjs/geth.js#readme",
+  "devDependencies": {
+    "async": "^1.5.2",
+    "chai": "^3.5.0",
+    "coveralls": "^2.13.3",
+    "ethrpc": "^2.5.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "truffle": "^5.7.3"
+  }
+}
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
   }
